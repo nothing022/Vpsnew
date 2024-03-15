@@ -127,13 +127,13 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🤗🥱**
            " **𝐀𝐚𝐨 𝐏𝐚𝐫𝐭𝐲 𝐊𝐚𝐫𝐭𝐞 𝐇𝐚𝐢𝐧😋🥳** ",
            " **𝐇𝐞𝐦𝐥𝐨𝐨🧐** ",
            " **𝐌𝐮𝐣𝐡𝐞 𝐁𝐡𝐮𝐥 𝐆𝐲𝐞 𝐊𝐲𝐚🥺** ",
-           " **𝐘𝐚𝐡𝐚 𝐀𝐚 𝐉𝐚𝐨:-[@TG_FRIENDSS]  𝐌𝐚𝐬𝐭𝐢 𝐊𝐚𝐫𝐞𝐧𝐠𝐞 🤭🤭** ",
+           " **𝐘𝐚𝐡𝐚 𝐀𝐚 𝐉𝐚𝐨:-[@TG_NAME_STYLE]  𝐌𝐚𝐬𝐭𝐢 𝐊𝐚𝐫𝐞𝐧𝐠𝐞 🤭🤭** ",
            " **𝐓𝐫𝐮𝐭𝐡 𝐀𝐧𝐝 𝐃𝐚𝐫𝐞 𝐊𝐡𝐞𝐥𝐨𝐠𝐞..? 😊** ",
            " **𝐀𝐚𝐣 𝐌𝐮𝐦𝐦𝐲 𝐍𝐞 𝐃𝐚𝐭𝐚 𝐘𝐫🥺🥺** ",
            " **𝐉𝐨𝐢𝐧 𝐊𝐚𝐫 𝐋𝐨🤗** ",
            " **𝐄𝐤 𝐃𝐢𝐥 𝐇𝐚𝐢 𝐄𝐤 𝐃𝐢𝐥 𝐇𝐢 𝐓𝐨 𝐇𝐚𝐢😗😗** ",
            " **𝐓𝐮𝐦𝐡𝐚𝐫𝐞 𝐃𝐨𝐬𝐭 𝐊𝐚𝐡𝐚 𝐆𝐲𝐞🥺** ",
-           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫{ @THE_VIP_BOY}🥰** ",
+           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫{ @ll_SARKAR_BABY_HU_ll}🥰** ",
            " **𝐊𝐚𝐡𝐚 𝐊𝐡𝐨𝐲𝐞 𝐇𝐨 𝐉𝐚𝐚𝐧😜** ",
            " **𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰** ",
            ]
@@ -154,7 +154,7 @@ VC_TAG = [ "**𝐎𝚈𝙴 𝐕𝙲 𝐀𝙰𝙾 𝐍𝙰 𝐏𝙻𝚂🥲**",
         ]
 
 
-@app.on_message(filters.command(["tagall"], prefixes=["/", "@", ".", "#"]))
+@app.on_message(filters.command(["tagall", "all", "tagmember", "stag", "hftag", "bstag", "eftag", "tag", "etag", "tag", "tag" ], prefixes=["/", "@", "#"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -187,7 +187,7 @@ async def mentionall(client, message):
     else:
         return await message.reply("/tagall 𝐆𝐨𝐨𝐝 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 / 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐍𝐞𝐱𝐭 𝐓𝐢𝐦𝐞 𝐅𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠...")
     if chat_id in spam_chats:
-        return await message.reply("𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐭 𝐅𝐢𝐫𝐬𝐭 𝐒𝐭𝐨𝐩 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 𝐁𝐲 /tagalloff , /stopvctag ...")
+        return await message.reply("𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐭 𝐅𝐢𝐫𝐬𝐭 𝐒𝐭𝐨𝐩 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 ...")
     spam_chats.append(chat_id)
     usrnum = 0
     usrtxt = ""
@@ -201,7 +201,7 @@ async def mentionall(client, message):
 
         if usrnum == 1:
             if mode == "text_on_cmd":
-                txt = f"{usrtxt} {random.choice(TAGMES)}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stoptagall ||"
+                txt = f"{usrtxt} {random.choice(TAGMES)}"
                 await client.send_message(chat_id, txt)
             elif mode == "text_on_reply":
                 await msg.reply(f"[{random.choice(EMOJI)}](tg://user?id={usr.user.id})")
@@ -214,7 +214,7 @@ async def mentionall(client, message):
         pass
 
 
-@app.on_message(filters.command(["vctag"], prefixes=["/", ".", "@", "#"]))
+@app.on_message(filters.command(["vctag"], prefixes=["/", "@", "#"]))
 async def mention_allvc(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -234,7 +234,7 @@ async def mention_allvc(client, message):
     if not is_admin:
         return await message.reply("𝐘𝐨𝐮 𝐀𝐫𝐞 𝐍𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 𝐁𝐚𝐛𝐲, 𝐎𝐧𝐥𝐲 𝐀𝐝𝐦𝐢𝐧𝐬 𝐂𝐚𝐧 𝐓𝐚𝐠 𝐌𝐞𝐦𝐛𝐞𝐫𝐬. ")
     if chat_id in spam_chats:
-        return await message.reply("𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐭 𝐅𝐢𝐫𝐬𝐭 𝐒𝐭𝐨𝐩 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 𝐁𝐲 /tagalloff , /stopvctag ...")
+        return await message.reply("𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐭 𝐅𝐢𝐫𝐬𝐭 𝐒𝐭𝐨𝐩 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 ...")
     spam_chats.append(chat_id)
     usrnum = 0
     usrtxt = ""
@@ -247,7 +247,7 @@ async def mention_allvc(client, message):
         usrtxt += f"[{usr.user.first_name}](tg://user?id={usr.user.id}) "
 
         if usrnum == 1:
-            txt = f"{usrtxt} {random.choice(VC_TAG)}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stopvctag ||"
+            txt = f"{usrtxt} {random.choice(VC_TAG)}"
             await client.send_message(chat_id, txt)
             await asyncio.sleep(4)
             usrnum = 0
@@ -259,7 +259,7 @@ async def mention_allvc(client, message):
 
 
 
-@app.on_message(filters.command(["stoptagall", "canceltagall", "offtagall", "tagallstop", "stopvctag", "tagalloff"]))
+@app.on_message(filters.command(["cancel", "stop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐈'𝐦 𝐍𝐨𝐭 𝐓𝐚𝐠𝐠𝐢𝐧𝐠 𝐁𝐚𝐛𝐲.")
@@ -281,4 +281,4 @@ async def cancel_spam(client, message):
             spam_chats.remove(message.chat.id)
         except:
             pass
-        return await message.reply("♦ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝..♦")
+        return await message.reply("♦ Mention process stopped ♦")
