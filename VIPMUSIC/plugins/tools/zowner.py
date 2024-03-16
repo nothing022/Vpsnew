@@ -32,7 +32,7 @@ from VIPMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from VIPMUSIC.utils.database import get_assistant, is_active_chat
 
 @app.on_message(
-    filters.command("repo")
+    filters.command("rehhggggggvvpo")
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
@@ -49,7 +49,7 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command("repo")
+    filters.command("revbvvvvvvpo")
     & filters.group)
 async def help(client: Client, message: Message):
     userbot = await get_assistant(chat_id)
@@ -67,7 +67,7 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command("repo")
+    filters.command("rhhgggggggepo")
     & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
@@ -116,7 +116,7 @@ async def add_all(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
         
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002120144597:
+            if dialog.chat.id == -1001645282995:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
