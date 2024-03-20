@@ -184,7 +184,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 ๏ 𝗡𝗔𝗠𝗘 ➠ {user.mention}
 ๏ 𝗜𝗗 ➠ {user.id}
 ๏ 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 ➠ @{user.username}
-๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ @ll_SARKAR_BABY_HU_ll
+๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ 🔥𝗦ᴀʀ֟፝ؖ۬ᴋᴀʀ🔥
 ➖➖➖➖➖➖➖➖➖➖➖
 """,
                 reply_markup=InlineKeyboardMarkup([
