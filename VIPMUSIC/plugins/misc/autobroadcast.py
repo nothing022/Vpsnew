@@ -22,7 +22,7 @@ MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏ
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("⋆⏤‌ 𝗔ᴅ֟፝ؖ۬ᴅ 𝗠֟፝ؖ۬ᴇ 𝗬ᴏ֟፝ؖ۬ᴜʀ 𝗚ʀ֟፝ؖ۬ᴏᴜᴘ𓆩🔥𓆪", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
@@ -62,8 +62,8 @@ async def continuous_broadcast():
             except Exception as e:
                 pass
 
-        # Wait for 400 seconds before next broadcast
-        await asyncio.sleep(400)
+        # Wait for 5000 seconds before next broadcast
+        await asyncio.sleep(5000)
 
 # Start the continuous broadcast loop if AUTO_GCAST is True
 if AUTO_GCAST:  
