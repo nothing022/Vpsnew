@@ -62,8 +62,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
             ),
         ],
     ]
@@ -111,11 +111,12 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
            InlineKeyboardButton(
-
-                text=_["S_B_5"],
-
-                url=f"https://t.me/{app.username}?startgroup=true",
-
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/ll_SARKAR_BABY_HU_ll"
+            ),
+        ],    
+        [
+            InlineKeyboardButton(
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/TG_NAME_STYLE"
             ),
 
         ],
@@ -139,14 +140,14 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     query = f"{query[:20]}"
     buttons = [
         [
-           InlineKeyboardButton(
-
-                text=_["S_B_5"],
-
-                url=f"https://t.me/{app.username}?startgroup=true",
-
+            InlineKeyboardButton(
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/ll_SARKAR_BABY_HU_ll"
             ),
-
+        ],    
+        [
+            InlineKeyboardButton(
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/TG_NAME_STYL"
+            ),
         ],
         [
             InlineKeyboardButton(
