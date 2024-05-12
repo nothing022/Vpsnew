@@ -70,8 +70,12 @@ def stream_markup(_, chat_id):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                text="💘𝐒υρρσят𝐓💘", url="https://t.me/ll_SARKAR_BABY_HU_ll"
+            ),
+        ],    
+        [
+            InlineKeyboardButton(
+                text="🖤𝐎ɯɳҽ𝐑🖤", url="https://t.me/TG_NAME_STYLE"
             ),
         ],
     ]
