@@ -73,7 +73,7 @@ def stream_markup(_, chat_id):
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             ),
-            
+            [
             InlineKeyboardButton(
                 text="💘𝐒υρρσят𝐓💘", url="https://t.me/ll_SARKAR_BABY_HU_ll"
             ),
