@@ -194,7 +194,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 ┣ 𝟓 ➥ 𝐆ɪᴠᴇ  ʀᴇsᴘᴇᴄᴛ , ᴛᴀᴋᴇ  ʀᴇsᴘᴇᴄᴛ 
 ┗━━━━━━━━━━━━━━━━━      
 
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [𝐐ᴜᴇᴇɴ ✘ 𝐌ᴜꜱɪᴄ](https://t.me/ll_RADHA_MUSICBOT)
+❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [𝗥ᴀ֟፝ؖ۬ᴅʜᴀ ✘ 𝗠ᴜ֟፝ؖ۬sɪᴄ](https://t.me/ll_RADHA_MUSICBOT)
 """,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton(button_text, url=deep_link)],
