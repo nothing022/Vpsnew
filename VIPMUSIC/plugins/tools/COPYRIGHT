@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from AarohiX import app
+from VIPMUSIC import app
 from pyrogram.types import Message
 
 # -----------------------------------------------------
