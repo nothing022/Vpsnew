@@ -11,16 +11,17 @@ AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
 
 MESSAGE = f"""**๏𝐓𝐡𝐢𝐬 𝐢𝐬 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐮𝐬𝐢𝐜 𝐩𝐥𝐚𝐲𝐞𝐫 𝐛𝐨𝐭 𝐟𝐨𝐫 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐠𝐫𝐨𝐮𝐩𝐬 +𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐯𝐜.🔥
 
-💥 ʙᴏᴛ : [𝐎𝐰𝐧𝐞𝐫](https://t.me/ll_RADHA_MUSICBOT)
-💥 ʙᴏᴛ : [𝐎𝐰𝐧𝐞𝐫](https://t.me/QUEEN_MUSIC_ROBOT)
-🔐ᴜꜱᴇ »: [𝐎𝐰𝐧𝐞𝐫](https://t.me/STAR_MUSICAL_BOT)
-         [𝐎𝐰𝐧𝐞𝐫](https://t.me/ll_SARKAR_BABY_HU_ll)
-➲ ʙᴏᴛ :** @{app.username}"""
+🔥 𝐁𝐎𝐓-1 : [𝐑𝐀𝐃𝐇𝐀 𝐌𝐔𝐒𝐈𝐂](https://t.me/ll_RADHA_MUSICBOT)
+🔥 𝐁𝐎𝐓-2 : [𝐐𝐔𝐄𝐄𝐍 𝐌𝐔𝐒𝐈𝐂](https://t.me/QUEEN_MUSIC_ROBOT)
+🔥 𝐁𝐎𝐓-3 : [𝐒𝐓𝐀𝐑 𝐌𝐈𝐒𝐈𝐂](https://t.me/STAR_MUSICAL_BOT)
+🔥 𝐎𝐖𝐍𝐄𝐑: [𝐎𝐖𝐍𝐄𝐑](https://t.me/ll_SARKAR_BABY_HU_ll)
+
+➲ 𝐁𝐎𝐓 :** @{app.username}"""
 
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("⋆⏤‌ 𝗔ᴅ֟፝ؖ۬ᴅ 𝗠֟፝ؖ۬ᴇ 𝗬ᴏ֟፝ؖ۬ᴜʀ 𝗚ʀ֟፝ؖ۬ᴏᴜᴘ𓆩🔥𓆪", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("𓆩🔥𓆪𝐀𝐃𝐃 𝐌𝐄 𝐁𝐀𝐁𝐘𓆩🔥𓆪", url=f"https://t.me/ll_RADHA_MUSICBOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
