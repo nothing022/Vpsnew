@@ -62,7 +62,7 @@ async def continuous_broadcast():
                 pass
 
         # Wait for 5000 seconds before next broadcast
-        await asyncio.sleep(5000)
+        await asyncio.sleep(500000)
 
 # Start the continuous broadcast loop if AUTO_GCAST is True
 if AUTO_GCAST:  
