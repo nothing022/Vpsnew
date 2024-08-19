@@ -84,7 +84,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text=""❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
+            InlineKeyboardButton(text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
             ),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
