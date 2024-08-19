@@ -103,7 +103,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ec38337d2badb1bef7768.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/7d2c8184cecf4dcdd61a9.png"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/ec38337d2badb1bef7768.jpg"
