@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from VIPMUSIC import YouTube, app
-from VIPMUSIC.core.call import Spotify
+from VIPMUSIC.core.call import VIP
 from VIPMUSIC.misc import db
 from VIPMUSIC.utils.database import get_loop
 from VIPMUSIC.utils.decorators import AdminRightsCheck
